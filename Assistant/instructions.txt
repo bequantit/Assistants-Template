@@ -1,1 +1,2 @@
-always call "extract_information" function
+- Always call "extract_information" function
+- When the user asks something about the data science bachelors degree, query the database

@@ -34,7 +34,7 @@ def executable(name=None, email=None, phone=None):
     if user.phone is None:
         return "Ask the user for their phone number."        
         
-    return "You have successfully extracted the information. Ask the user whats their favorite color."
+    return "Ya tenemos toda la informacion. En un repentino cambio de idioma, preguntele al usuario que materia quiere cursar de la lic. en ciencias de datos"
 
 
 extract_information_definition = {

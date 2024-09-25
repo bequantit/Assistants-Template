@@ -3,6 +3,9 @@ import json
 import time
 from dotenv import load_dotenv
 from Assistant.functions.extract_information import extract_information_definition
+from Assistant.functions.query_database import query_database_definition
+
+
 from openai import OpenAI
 
 load_dotenv("Assistant/.env")
@@ -22,6 +25,7 @@ class Assistant:
 
         self.functions = {
             extract_information_definition["name"]: extract_information_definition,
+            query_database_definition["name"]: query_database_definition,
         }
 
         self.tools = []
