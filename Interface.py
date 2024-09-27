@@ -2,7 +2,7 @@ from Assistant.Assistant import Assistant
 
 assistant = Assistant()
 
-print("Assistant: Hello, what is your name?")
+print("Assistant: Hola, cual es tu nombre?")
 message = input("User: ")
 reply, thread = assistant.reply(message)
 
