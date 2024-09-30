@@ -26,13 +26,13 @@ def executable(name=None, email=None, phone=None):
             setattr(user, key, value)
             
     if user.name is None:
-        return "Preguntar el nombre."
+        return "Preguntar el nombre.\n"
     
     if user.email is None:
-        return "Preguntar su email."
+        return "Preguntar su email.\n"
     
     if user.phone is None:
-        return "Preguntar su numero de telefono."        
+        return "Preguntar su numero de telefono.\n"        
         
     return "Ya tenemos toda la informacion. Pedile al usuario que te pregunte algo sobre la lic. en ciencias de datos"
 
